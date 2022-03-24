@@ -21,7 +21,7 @@ public class OrderDTO implements Serializable {
 
     private Long id;
     private OrderStatus orderStatus;
-    private PatientDTO patientDTO;
+    private String patientDTO;
     private List<ProcedureDTO> proceduresDTO = new ArrayList<>();
 
 //    public OrderDTO(){
